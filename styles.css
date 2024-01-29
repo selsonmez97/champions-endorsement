@@ -1,0 +1,142 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #111827;
+    text-align: center;
+}
+
+/* TYPOGRAPHY */
+
+h1, 
+h2, 
+button {
+
+    font-family: 'Josefin Sans', sans-serif;
+    color: #fff;
+    
+    }
+
+h4, 
+ul, 
+li {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+/* IMAGES */
+
+img {
+    width: 90px;
+    height: 90px;
+    padding-top: 50px;
+}
+
+/* TEXT FIELD */
+
+input, textarea {
+
+display: block;
+background: #444059;
+font-family: 'Inter', sans-serif;
+color: #8F8F8F;
+border: none;
+border-radius: 10px;
+font-size: 15px;
+font-weight: 400;
+line-height: 18px;
+margin: 0 auto 0 auto;
+}
+
+/* TEXTAREA FONT */
+
+#enter-message {
+    letter-spacing: 0em;
+    padding: 15px 10px;
+    width: 90%;
+    height: 200px;
+    position: relative;
+    word-wrap: break-word;
+    resize: none;
+} 
+
+/* TEXTAREA BOX */
+
+input, #text-field {
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    }
+
+/* INPUT FIELDS */
+
+#to-input, #from-input {
+    display: inline;
+    justify-content: space-evenly;
+    height: 40px;
+    width: 32%;
+    margin-top: 5px;
+     }
+
+/* BUTTON */
+
+button {
+display: block;
+background: #28A9F1;
+color: #04131C;
+border: none;
+width: 60%;
+height: 61px;
+top: 378px;
+left: 35px;
+border-radius: 8px;
+font-size: 22px;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+margin: 15px auto;
+cursor: pointer;
+}
+
+
+/* ENDORSEMENT MESSAGES */
+
+ ul {
+    list-style-type: none;
+    display: block;
+}
+
+li {
+    background: #fff;
+    max-width: 80%;
+    height: 120px;
+    gap: 10px;
+    margin: 20px auto 0 auto;
+    text-align: start;
+    padding: 3px 30px 30px 14px;
+    color: #1B1924;
+    }
+
+    li strong {
+        font-weight: 700;
+    }
+
+    .endorsement-item {
+        background: #fff;
+        max-width: 80%;
+        margin: 20px auto 0 auto;
+        text-align: start;
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease;
+    }
+    
+    .endorsement-item:hover {
+        transform: scale(1.02);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
